@@ -4,16 +4,16 @@
   "description": "Deprecated custom components that originally shipped with React Native",
   "repository": {
     "type": "git",
-    "url": "git@github.com:facebookarchive/react-native-custom-components.git"
+    "url": "git+https://github.com/AndriiUhryn/react-native-custom-components.git"
   },
   "main": "src/CustomComponents.js",
   "dependencies": {
-    "fbjs": "~0.8.9",
-    "immutable": "~3.7.6",
-    "create-react-class": "15.6.0",
-    "prop-types": "^15.5.10",
-    "react-timer-mixin": "^0.13.2",
-    "rebound": "^0.0.13"
+    "fbjs": "1.0.0",
+    "immutable": "3.8.2",
+    "create-react-class": "15.6.3",
+    "prop-types": "15.7.2",
+    "react-timer-mixin": "0.13.4",
+    "rebound": "0.1.0"
   },
   "peerDependencies": {
     "react-native": "*"
