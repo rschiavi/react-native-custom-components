@@ -1,6 +1,6 @@
 {
   "name": "react-native-deprecated-custom-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Deprecated custom components that originally shipped with React Native",
   "repository": {
     "type": "git",
@@ -8,10 +8,11 @@
   },
   "main": "src/CustomComponents.js",
   "dependencies": {
+    "create-react-class": "15.6.3",
     "fbjs": "1.0.0",
     "immutable": "3.8.2",
-    "create-react-class": "15.6.3",
     "prop-types": "15.7.2",
+    "react-native-iphone-x-helper": "1.2.1",
     "react-timer-mixin": "0.13.4",
     "rebound": "0.1.0"
   },
