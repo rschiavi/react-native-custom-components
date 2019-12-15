@@ -61,6 +61,7 @@ var BASE_STYLES = {
   RightButton: {
     position: 'absolute',
     top: STATUS_BAR_HEIGHT,
+    left: 0,
     right: 0,
     overflow: 'hidden',
     opacity: 1,
