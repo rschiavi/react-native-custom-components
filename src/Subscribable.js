@@ -24,9 +24,9 @@
  *
  * @flow
  */
-'use strict';
+"use strict";
 
-import type EventEmitter from './EventEmitter';
+import type EventEmitter from "./EventEmitter";
 
 /**
  * Subscribable provides a mixin for safely subscribing a component to an
@@ -39,14 +39,13 @@ import type EventEmitter from './EventEmitter';
 var Subscribable = {};
 
 Subscribable.Mixin = {
-
-  componentWillMount: function() {
+  UNSAFE_componentWillMount: function() {
     this._subscribableSubscriptions = [];
   },
 
   componentWillUnmount: function() {
-    this._subscribableSubscriptions.forEach(
-      (subscription) => subscription.remove()
+    this._subscribableSubscriptions.forEach(subscription =>
+      subscription.remove()
     );
     this._subscribableSubscriptions = null;
   },
